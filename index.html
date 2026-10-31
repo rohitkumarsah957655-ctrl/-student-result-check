@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result check</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h1>Student Result Calculator</h1>
+    <p>Enter your marks to check your result</p>
+  </div>
+<div class="container">
+  <div class="leftbox">
+  <form action="/cgi-bin/result.exe" method="GET">
+  <p class="userinput">Roll Number</p>
+  <input type="number" name="rollNo" placeholder="Enter Roll Number" class="box">
+  <p class="userinput">Marks of mathematics </p>
+  <input type="number" name="math" placeholder="Enter marks of math" class="box">
+  <p class="userinput">Marks of Physics</p>
+  <input type="number" name="phy" placeholder="Enter marks of physics" class="box">
+  <p class="userinput">Marks of Chemistry</p>
+  <input type="number" name="che" placeholder="Enter marks of chemistry" class="box">
+  <p class="userinput">Marks of Hindi</p>
+  <input type="number" name="hin" placeholder="Enter marks of hindi" class="box">
+  <p class="userinput">Marks of English</p>
+  <input type="number" name="eng" placeholder="Enter marks of engnum" class="box">
+  <br>
+  <button type="submit">submit</button>
+  </form>
+  </div>
+
+  
+  <div class="image">
+    <img src="manui.png" >
+  </div>
+  </div>
+
+</body>
+</html>
